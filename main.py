@@ -43,7 +43,7 @@ def submit():
         c=float(request.form['c'])
         data_science = float(request.form['datascience'])
         total_score = (science+maths+c+data_science)/4
-    else:
+    elif request.method=='GET' :
         total_score = np.random.randint(89)
     return redirect(url_for('report',score=total_score))
 
