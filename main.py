@@ -1,5 +1,5 @@
-from flask import Flask, render_template, redirect, url_for, request
 import numpy as np
+from flask import Flask, render_template, redirect, url_for, request
 
 #print('Hi')
 
@@ -12,8 +12,8 @@ def welcome():
 
 @app.route('/final_report/<int:score>')
 def report(score):
-    if score<=33:
-        res='Fail'
+    if score <= 33:
+        res = 'Fail'
     else:
         res='Pass'
     exp = {'SCORE':score, 'RESULT':res}
@@ -46,6 +46,8 @@ def submit():
     elif request.method=='GET' :
         total_score = np.random.randint(89)
     return redirect(url_for('report',score=total_score))
+
+
 
 
 #print(__name__)
