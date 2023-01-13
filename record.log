@@ -1,0 +1,27 @@
+2023-01-11 15:11:01,022 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-11 15:11:01,022 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-01-11 15:11:01,025 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-11 15:11:01,527 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-11 15:11:01,534 INFO werkzeug MainThread :  * Debugger PIN: 144-024-171
+2023-01-11 15:11:11,699 INFO werkzeug Thread-2 : 127.0.0.1 - - [11/Jan/2023 15:11:11] "GET / HTTP/1.1" 200 -
+2023-01-11 15:11:40,275 INFO main Thread-3 : Info level log
+2023-01-11 15:11:40,276 INFO werkzeug Thread-3 : 127.0.0.1 - - [11/Jan/2023 15:11:40] "[32mPOST /submit HTTP/1.1[0m" 302 -
+2023-01-11 15:11:40,287 INFO werkzeug Thread-4 : 127.0.0.1 - - [11/Jan/2023 15:11:40] "GET /final_report/49 HTTP/1.1" 200 -
+2023-01-13 09:16:52,425 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-13 09:16:52,425 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-01-13 09:16:52,428 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-13 09:16:52,897 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-13 09:16:52,904 INFO werkzeug MainThread :  * Debugger PIN: 144-024-171
+2023-01-13 09:17:10,185 INFO werkzeug Thread-2 : 127.0.0.1 - - [13/Jan/2023 09:17:10] "GET / HTTP/1.1" 200 -
+2023-01-13 09:17:12,423 INFO main Thread-3 : Info level log
+2023-01-13 09:17:12,424 INFO werkzeug Thread-3 : 127.0.0.1 - - [13/Jan/2023 09:17:12] "[32mPOST /submit HTTP/1.1[0m" 302 -
+2023-01-13 09:17:12,434 INFO werkzeug Thread-4 : 127.0.0.1 - - [13/Jan/2023 09:17:12] "GET /final_report/0 HTTP/1.1" 200 -
+2023-01-13 09:17:17,347 INFO werkzeug Thread-5 : 127.0.0.1 - - [13/Jan/2023 09:17:17] "[33mGET /final_report HTTP/1.1[0m" 404 -
+2023-01-13 09:17:26,595 INFO werkzeug Thread-6 : 127.0.0.1 - - [13/Jan/2023 09:17:26] "[32mGET /submit HTTP/1.1[0m" 302 -
+2023-01-13 09:17:26,599 INFO werkzeug Thread-7 : 127.0.0.1 - - [13/Jan/2023 09:17:26] "GET /final_report/45 HTTP/1.1" 200 -
+2023-01-13 09:19:45,743 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\anirupad\\flask\\main.py', reloading
+2023-01-13 09:19:45,792 INFO werkzeug MainThread :  * Restarting with stat
+2023-01-13 09:19:46,383 WARNING werkzeug MainThread :  * Debugger is active!
+2023-01-13 09:19:46,388 INFO werkzeug MainThread :  * Debugger PIN: 144-024-171

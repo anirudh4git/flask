@@ -1,10 +1,15 @@
 import numpy as np
 from flask import Flask, render_template, redirect, url_for, request
+import logging
 
 #print('Hi')
 
 #WSGI Application
 app = Flask(__name__)
+
+logging.basicConfig(filename='record.log', level=logging.DEBUG, format =
+                    f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
+
 
 @app.route('/')
 def welcome():
@@ -42,6 +47,7 @@ def submit():
         maths=float(request.form['maths'])
         c=float(request.form['c'])
         data_science = float(request.form['datascience'])
+        app.logger.info('Info level log')
         total_score = (science+maths+c+data_science)/4
     elif request.method=='GET' :
         total_score = np.random.randint(89)
